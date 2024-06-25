@@ -1,110 +1,110 @@
 {
-    "broadArea": {
-        "name": "Electrical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
-        "code": "EE"
+  "broadArea": {
+    "name": "Electrical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+    "code": "EE"
+  },
+  "lab": "Control Engineering",
+  "lab_display_name": "Control Engineering",
+  "phase": "3-ext",
+  "collegeName": "DLBG",
+  "baseUrl": "ce-dei.vlabs.ac.in",
+  "introduction": "Control systems are essential to a wide range of applications, including industrial processes,scientific instruments, and various business, social, and management issues. A solid understanding of the fundamental concepts underlying control systems is crucial for engineers and scientists. This virtual lab course offers practical experience with key control concepts in a simulated environment",
+  "experiments": [
+    {
+      "name": "Pole-zero plot",
+      "short-name": "pole-zero-plot",
+      "repo": "https://github.com/virtual-labs/exp-pole-zero-plot-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "lab": "Control Engineering",
-    "lab_display_name": "Control Engineering",
-    "phase": "3-ext",
-    "collegeName": "DLBG",
-    "baseUrl": "ce-dei.vlabs.ac.in",
-    "introduction": "Control systems are essential to a wide range of applications, including industrial processes,scientific instruments, and various business, social, and management issues. A solid understanding of the fundamental concepts underlying control systems is crucial for engineers and scientists. This virtual lab course offers practical experience with key control concepts in a simulated environment",
-    "experiments": [
-        {
-            "name": "Pole-zero plot",
-            "short-name": "pole-zero-plot",
-            "repo": "https://github.com/virtual-labs/exp-pole-zero-plot-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "First order unity feedback",
-            "short-name": "first-order-unity-feedback",
-            "repo": "https://github.com/virtual-labs/exp-first-order-unity-feedback-system-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Second order unity feedback system",
-            "short-name": "second-order-unity-feedback-system",
-            "repo": "https://github.com/virtual-labs/exp-second-order-unity-feedback-system-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Type zero-one-Two System",
-            "short-name": "type-zero-one-two-system",
-            "repo": "https://github.com/virtual-labs/exp-type-0-1-2-systems-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-      {
-            "name": "Study the effect of addition of zeros to the forward path transfer function of a closed loop system",
-            "short-name": "study-the-effect-of-addition-of-zeros-to-the-forward-path-transfer-function-of-a-closed-loop-system",
-            "repo": "https://github.com/virtual-labs/exp-addition-of-zeros-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-      {
-            "name": "Study the effect of addition of poles to the forward path transfer function of a control system",
-            "short-name": "study-the-effect-of-addition-of-poles-to-the-forward-path-transfer-function-of-a-control-system",
-            "repo": "https://github.com/virtual-labs/exp-addition-of-poles-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-      {
-            "name": "To obtain root locus for a given transfer function of the system",
-            "short-name": "to-obtain-root-locus-for-a-given-transfer-function-of-the-system",
-            "repo": "https://github.com/virtual-labs/exp-root-locus-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-      {
-            "name": "To obtain bode plot for a given transfer function of the system",
-            "short-name": "to-obtain-bode-plot-for-a-given-transfer-function-of-the-system",
-            "repo": "https://github.com/virtual-labs/exp-bode-plot-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-      {
-            "name": "Nyquist plot of a second order system",
-            "short-name": "nyquist-plot-of-a-second-order-system",
-            "repo": "https://github.com/virtual-labs/exp-nyquist-plot-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-       {
-            "name": "To study the effect of PI, PD and PID controller on a control system ",
-            "short-name": "to-study-the-effect-of-pi-pd-and-pid-controller-on-a-control-system",
-            "repo": "https://github.com/virtual-labs/exp-pi-pd-pid-controller-dei",
-            "tag": "v1.0.0",
-            "deploy": true
-        }
-    ],
-    "targetAudience": {
-        "UG": [
-            ""
-        ],
-        "PG": [
-            ""
-        ]
+    {
+      "name": "First order unity feedback",
+      "short-name": "first-order-unity-feedback",
+      "repo": "https://github.com/virtual-labs/exp-first-order-unity-feedback-system-dei",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "objective": "The primary goal of the Control Engineering Virtual Lab is to provide a foundational understanding of control system principles in a virtual setting. The objectives of the lab include <br>1. Understanding Control Concepts: Gain a basic understanding of control ideas and principles through interactive simulations and virtual experiments.<br>2. Component Characteristics: Study and verify the various characteristics of control system components using virtual tools. <br>3. System Development: Build a virtual control system and compute its transfer functionusing simulation software. <br>4. Stability Analysis: Analyze the stability of the developed virtual control system throughcomputational methods.",
-    "courseAlignment": {
-        "description": "The syllabi of this lab aligns to the following universities in India.",
-        "universities": [
-            "Muffakham Jha College of Engineering & Technology, Hydrabad",
-            "SSN College of Engineering Kalavakkam",
-            "Concordia University",
-            "Amiraj College of Engineering & Technology",
-            "Dhanalakshmi College of Engineering",
-            "Jorhat Engineering College ,Asam",
-            "Marwadi University,Rajkot Gujrat",
-            "IIT Mandi",
-            "AKTU Lucknow and Their Affiliated Colleges",
-            "Uttarakhand Technical University and Their Affiliated Colleges",
-            "Dayalbagh Educational Institute, Agra"
-        ]
+    {
+      "name": "Second order unity feedback system",
+      "short-name": "second-order-unity-feedback-system",
+      "repo": "https://github.com/virtual-labs/exp-second-order-unity-feedback-system-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Type zero-one-Two System",
+      "short-name": "type-zero-one-two-system",
+      "repo": "https://github.com/virtual-labs/exp-type-0-1-2-systems-dei",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Study the effect of addition of zeros to the forward path transfer function of a closed loop system",
+      "short-name": "study-the-effect-of-addition-of-zeros-to-the-forward-path-transfer-function-of-a-closed-loop-system",
+      "repo": "https://github.com/virtual-labs/exp-addition-of-zeros-dei",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Study the effect of addition of poles to the forward path transfer function of a control system",
+      "short-name": "study-the-effect-of-addition-of-poles-to-the-forward-path-transfer-function-of-a-control-system",
+      "repo": "https://github.com/virtual-labs/exp-addition-of-poles-dei",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "To obtain root locus for a given transfer function of the system",
+      "short-name": "to-obtain-root-locus-for-a-given-transfer-function-of-the-system",
+      "repo": "https://github.com/virtual-labs/exp-root-locus-dei",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "To obtain bode plot for a given transfer function of the system",
+      "short-name": "to-obtain-bode-plot-for-a-given-transfer-function-of-the-system",
+      "repo": "https://github.com/virtual-labs/exp-bode-plot-dei",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Nyquist plot of a second order system",
+      "short-name": "nyquist-plot-of-a-second-order-system",
+      "repo": "https://github.com/virtual-labs/exp-nyquist-plot-dei",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "To study the effect of PI, PD and PID controller on a control system ",
+      "short-name": "to-study-the-effect-of-pi-pd-and-pid-controller-on-a-control-system",
+      "repo": "https://github.com/virtual-labs/exp-pi-pd-pid-controller-dei",
+      "tag": "v1.0.1",
+      "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      ""
+    ],
+    "PG": [
+      ""
+    ]
+  },
+  "objective": "The primary goal of the Control Engineering Virtual Lab is to provide a foundational understanding of control system principles in a virtual setting. The objectives of the lab include <br>1. Understanding Control Concepts: Gain a basic understanding of control ideas and principles through interactive simulations and virtual experiments.<br>2. Component Characteristics: Study and verify the various characteristics of control system components using virtual tools. <br>3. System Development: Build a virtual control system and compute its transfer functionusing simulation software. <br>4. Stability Analysis: Analyze the stability of the developed virtual control system throughcomputational methods.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "universities": [
+      "Muffakham Jha College of Engineering & Technology, Hydrabad",
+      "SSN College of Engineering Kalavakkam",
+      "Concordia University",
+      "Amiraj College of Engineering & Technology",
+      "Dhanalakshmi College of Engineering",
+      "Jorhat Engineering College ,Asam",
+      "Marwadi University,Rajkot Gujrat",
+      "IIT Mandi",
+      "AKTU Lucknow and Their Affiliated Colleges",
+      "Uttarakhand Technical University and Their Affiliated Colleges",
+      "Dayalbagh Educational Institute, Agra"
+    ]
+  }
 }
